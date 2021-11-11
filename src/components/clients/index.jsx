@@ -3,19 +3,28 @@ import React from "react";
 export default function Clients() {
   return (
     <section data-scroll-section id="clients">
-        <img
+      <img
         data-scroll
         data-scroll-direction=""
-        // data-scroll-speed="2"
-        // data-scroll-position="top"
         data-scroll-class="appear"
-        className="cloud2" src="/assets/Cloud 2.svg" alt="" />
+        className="cloud2"
+        src="/assets/Cloud 2.svg"
+        alt=""
+      />
       <div className="wrapper">
-        <span data-scroll 
-        data-scroll-direction="horizontal"
-        data-scroll-speed="25"
-
-        >I can also go in this direction</span>
+          {/* <p>Brand I've break worked with</p> */}
+        <span
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="25"
+        >
+          <img src="/assets/clients/dell.png" alt="" />
+          <img src="/assets/clients/facebook.png" alt="" />
+          <img src="/assets/clients/instagram.png" alt="" />
+          <img src="/assets/clients/linkedin-logo.png" alt="" />
+          <img src="/assets/clients/visa.png" alt="" />
+          <img src="/assets/clients/youtube.png" alt="" />
+        </span>
       </div>
     </section>
   );
